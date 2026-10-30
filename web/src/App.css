@@ -1,0 +1,90 @@
+.app {
+  padding: 16px;
+}
+
+h1 {
+  font-size: 1.25rem;
+  margin: 0 0 16px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 0.85rem;
+  margin: 0 0 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #5b6570;
+}
+
+h3 {
+  font-size: 0.9rem;
+  margin: 12px 0 4px;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #d5dae0;
+  border-radius: 12px;
+  padding: 14px;
+  margin-bottom: 12px;
+}
+
+.card p {
+  margin: 4px 0;
+}
+
+.card.stale {
+  opacity: 0.55;
+}
+
+.big {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.small {
+  font-size: 0.85rem;
+  color: #5b6570;
+}
+
+.error {
+  color: #b42318;
+  font-size: 0.85rem;
+}
+
+.status {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.status.Connected { color: #067647; }
+.status.Offline,
+.status.Database-Error { color: #b42318; }
+.status.No-data,
+.status.Loading { color: #b54708; }
+
+.chart-svg {
+  width: 100%;
+  height: auto;
+  background: #f7f8fa;
+  border: 1px solid #e3e7ec;
+  border-radius: 8px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: 5px 4px;
+  border-bottom: 1px solid #e3e7ec;
+}
+
+.table th {
+  color: #5b6570;
+  font-weight: 600;
+}

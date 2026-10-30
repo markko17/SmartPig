@@ -1,0 +1,19 @@
+# Secrets (never commit these)
+secrets.h
+.env
+.env.local
+.env.*.local
+
+# Dependencies and build output
+node_modules/
+dist/
+
+# Logs and system files
+*.log
+.DS_Store
+Thumbs.db
+
+# Python (future ml/ folder)
+__pycache__/
+.venv/
+*.pyc
